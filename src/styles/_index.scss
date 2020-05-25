@@ -1,21 +1,23 @@
+
+@import './color.scss';
 @import './header.scss';
 
 .navbar-dark .navbar-nav{
   .nav-link {
     &:hover {
-      color: #61dafb;
+      color: $main-app-color;
     }
   }
 }
 
 .btn {
   &.btn-bwm-main {
-    border-color: #61dafb;
-    color: #61dafb;
+    border-color: $main-app-color;
+    color: $main-app-color;
 
     &:hover, &:focus, &:active {
-      background-color: #61dafb;
-      border-color: #61dafb;
+      background-color: $main-app-color;
+      border-color: $main-app-color;
       color: white;
       box-shadow: none;
     }
