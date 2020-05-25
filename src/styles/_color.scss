@@ -1,3 +1,17 @@
 
 
 $main-app-color: #61dafb;
+
+.type- {
+  &apartment {
+    color: #a72da3;
+  }
+
+  &condo {
+    color: #bf1818;
+  }
+  
+  &house {
+    color: #d68000;
+  }
+}
