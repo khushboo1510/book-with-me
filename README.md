@@ -1,3 +1,3 @@
-## Book with me
+## BookWithMe
 
-This is a rentals app built using React and node.js
+This is a web app that connects people looking to rent their homes with people who are looking for accommodations. The app is built using React and node.js
