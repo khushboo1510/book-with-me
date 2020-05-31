@@ -3,10 +3,13 @@
 @import './header.scss';
 @import './rental-home.scss';
 
-  html, body {
-    height: 100%;
-  }
+html, body {
+  height: 100%;
+}
 
+.bwm-container {
+  padding-top: 70px;
+}
 .navbar-dark .navbar-nav{
   .nav-link {
     &:hover {
