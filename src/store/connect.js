@@ -3,12 +3,12 @@ import React from 'react'
 import { StateContext } from '../state-context'
 
 //HOC
-const connect = (Component) => {
-
+const connect = selectState => Component => {
   class Connect extends React.Component {
 
-    render (){
-      return <Component {...this.context}></Component>
+    render(){
+      const slice = selectState(this.context)
+      return <Component {...slice}></Component>
     }
   }
   Connect.contextType=StateContext;
