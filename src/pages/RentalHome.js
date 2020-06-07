@@ -13,7 +13,7 @@ class RentalHome extends React.Component {
   componentDidMount(){
     const { rentals } = this.props
     this.setState({
-      rentals: rentals()
+      rentals: rentals
     })
   }
   renderRentals = (rentals) => 
